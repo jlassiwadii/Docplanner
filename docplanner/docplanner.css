@@ -1,0 +1,480 @@
+
+/**//**/ /**//*headerheaderheaderheaderheaderheaderheader*//**//**//**//**/
+header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+background-color: #fff;
+}
+.docplanner-header{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+    padding-top: 15px;
+}
+.logo-header{
+    width: 200;
+    height: 50px; 
+
+}
+
+.home-header{
+  display: inline;
+  display: flex;
+  justify-content: space-around;
+ 
+  width:30%;
+}
+.about-us{
+    color: #00b39b;
+    text-decoration: none;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.career{
+    font-weight: 400;
+    color: #747474;
+    text-decoration: none;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+.department{
+    color: #747474;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+.career:hover{
+    color: #00b39b; 
+}
+.department:hover{
+    color: #00b39b;
+}
+
+/**//**//**//**//**//**//**//**//**//*main*//**//**//**//**//**//**//**//**//**//**/
+
+/**//**//**//**//**//**//**//**//**//*section1*//**//**//**//**//**//**//**//**//**//**/
+.health-section1{
+    display: flex;
+    flex-direction: column;
+}
+.section1-healthcare{
+    padding-top: 50px;
+padding-left: 170px;
+padding-right: 150px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.logo-etoile{
+    
+}
+.healthcare-title{
+    font-size: 20px;
+    color: #00b39b;
+    text-align: center;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+.p-healthcare{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    font-size: 16px;
+   
+    
+}
+.p1-healthcare{
+    line-height:30px;
+    width: 45%;
+}
+/**//**//**//**//**//**//**//**//**//*section1   partie 2*//**//**//**//**//**//**//**//**//**//**/
+.box-health{
+ padding-top: 50px;
+ padding-left: 180px;
+ padding-right: 150px;
+ width:1360px;
+ margin-bottom: 20px;
+ 
+display: flex;
+flex-direction: row;
+max-width: max-content;
+}
+.box1-health{
+    width: 450px;
+    border-radius: 10px;
+    background: #00ccb1;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.box11-health{
+    padding:20px 0px 20px 30px;
+    align-items: center;
+}
+.patient{
+font-size: .875em;
+font-weight: 400;
+margin: 0;
+color: hsla(0,0%,100%,.7);
+}
+.h1-patient-doctor{
+    margin: 1em 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 250;
+     color:white;
+}
+.picture-box12{
+   width:auto;
+ 
+}
+.box12-health{
+  display: flex;
+  flex-direction: row;
+ padding-bottom: 20px;
+}
+.box12-select{
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-weight: 500px;
+    padding-left: 15px;padding-top: 10px;
+
+}
+.select-option{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding:5px;
+    border-radius: 10px;
+    font-weight: 700px;
+}
+.box2-health{
+    border-radius: 10px;
+    background-color: #3d83df;
+    width:450px;
+    margin-left: 10px;
+}
+.doctor-box2{
+    padding:20px 0px 20px 30px;
+
+
+}
+.doctor{font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0,0%,100%,.7);
+}
+.h1-doctor{
+    margin: 1em 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 250;
+    letter-spacing: .3px;
+   
+     color:white;
+
+}
+.picture-box2-health {
+    display :flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    
+    
+}
+
+/**//**//**//**//**//**//**//**//**//*section2*//**//**//**//**//**//**//**//**//**//**/
+.company{ 
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom:20px; 
+    padding-left: 170px;
+    padding-right: 150px;
+}
+
+.h1-company{   
+     width: 80%;
+     color: #00b39b;
+     font-weight: 300;
+     letter-spacing: .3px;}
+.link-global-company{ 
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  flex-wrap: wrap;
+padding-top: 20px;
+padding-right: 55px;
+margin-bottom: 20px;
+
+     }
+.global-link{
+    display: flex;
+    align-items: center;
+    width:150px;
+}
+.text-global{
+    color:#ababab;
+    font-weight: 600;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+}
+.global-company-link{
+    text-decoration: none;
+}
+.global-company-link:hover{
+  
+
+}
+
+
+/**//**//**//**//**//**//**//**//**//*section3*//**//**//**//**//**//**//**//**//**//**/
+.healthcare{
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    margin:0px;
+    display: flex;
+    flex-direction: row;
+}
+.healthcare-platform{
+    max-width: 48%; height: 100%;
+    padding-top: 50px;padding-bottom: 0px;
+    padding-right: 20px;
+    
+}
+.h1-p-healthcare{
+  padding-left:180px;
+  padding-bottom: 30px;
+  
+}
+.h1-world-biggest-healthcare{
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+.p-offices{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+}
+ 
+/*****************************boxes*******************************************/
+.box-1{
+   max-width: 20%;
+  padding-top: 35px;
+  padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.box-11{
+    width:70%;
+    height:200px;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box-12{
+    width:70%;
+    height:200px;
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;}
+.picture-box{
+    
+}
+.h1-box{
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: .5em 0;
+    text-align: center;
+}
+.p-box{
+    font-weight: 400;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+}
+
+.box-2{
+    max-width: 20%;
+    padding:10px 20px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box-21{
+    width:70%;
+    height:200px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;}
+.box-22{
+    width:70%;
+    height:200px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/**//**//**//**//**//**//**//**//**//*section4*//**//**//**//**//**//**//**//**//**//**/
+
+.lives-in-countries{
+    padding: 50px 150px 50px 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.improve-lives{
+    width:45%;
+    padding-bottom: 50px;
+}
+.title-section-4{
+    text-align: center;
+    color: #00b39b;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+    line-height: 1.3;
+    font-size: 30px;
+}
+.p-improve-lives{
+    text-align: center;
+    font-weight: 400;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    letter-spacing: .3px;
+    line-height: 1.7;
+    font-size: .875em;
+}
+.picture-countries{
+    display: flex;
+    flex-direction: column;
+padding-right: 15px;}
+    
+    .logo-country{
+         
+    }
+    .logo-image-country{
+       
+    
+    }
+    .picture-country{
+        display: flex;
+        flex-direction: column;
+        border-radius: 1px solid rgb(255, 246, 246);
+
+    }
+   .middle{
+       
+       }
+ .picture-countries-1{
+        display: flex;
+        flex-direction: row;
+      justify-content: space-between;
+      padding: 30px 25px;
+      
+    }
+    .picture-countries-2{
+        display: flex;
+        flex-direction: row;
+      padding: 30px 25px;
+    
+    }
+    .see-opennings-country{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 0px 10px
+        
+
+    }
+    .country{
+        font-size: 1.125em;
+        font-weight: 400;
+        color: #747474;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    }
+    .button-see-opennings{
+        font-size: 12px;
+        color: aliceblue;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        background: #3d83df;
+        width:120px;
+        height: 25px;
+        text-align: center;
+        border-radius: 5px;
+        border: none;
+    }
+    .button-see-opennings:hover{
+ background-color: #1b90c7;
+    }
+
+    .decoration-country{
+       
+        text-decoration: none;
+        display: flex;
+        margin:10px;
+        border-radius: 5px;
+    
+    }
+    .decoration-country:hover{
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+    }
+    
+/**//**//**//**//**//**//**//**//**//*footer*//**//**//**//**//**//**//**//**//**//**/
+.more-information-footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding:50px 150px;
+
+}
+.p1-footer{
+    text-align: center;
+    font-size: 12px;
+    color: #ababab;
+    font-weight: 400;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 20px;
+   
+}
+.countries{
+    text-decoration: none;
+    color: #3d83df;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+.countries:hover{
+text-decoration: underline;
+}
